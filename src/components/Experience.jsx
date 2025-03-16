@@ -43,8 +43,7 @@ export default function Experience() {
                 <ul>
                     <li>
                         <FontAwesomeIcon icon={faCode} className="bullet-icon" />
-                        Spearheaded the development and maintenance of automated test scripts using{" "}
-                        <strong>Playwright with Java</strong> within the <strong>MAF framework</strong>.
+                        Spearheaded the development and maintenance of automated test scripts using Playwright with Java within the MAF framework.
                     </li>
                     <li>
                         <FontAwesomeIcon icon={faBug} className="bullet-icon" />

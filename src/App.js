@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom"; // Use HashRouter
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -83,12 +83,8 @@ export default function App() {
 
         {/* Main Content */}
         <main className={`main-content ${isSidebarOpen ? "sidebar-open" : "sidebar-closed"}`}>
-          {/* Header Component */}
-          <Header />
-
-          {/* Routes */}
           <Routes>
-            <Route path="/" element={<About />} /> {/* Default landing page */}
+            <Route path="/" element={<Header />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />
