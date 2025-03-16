@@ -1,0 +1,96 @@
+.header {
+    text-align: center;
+    padding: 2rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #050505;
+    /* Black text */
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: #333;
+    /* Black text */
+}
+
+.header h5 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #333;
+    /* Black text */
+}
+
+.about {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-heading h2,
+.section-heading h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    /* Black text */
+}
+
+.section-icon {
+    font-size: 1.5rem;
+    color: #0073b1;
+    /* LinkedIn blue for example */
+}
+
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+    /* Black text */
+}
+
+.section-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.instagram-link {
+    margin-top: 1rem;
+}
+
+.instagram-link a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #e932b2;
+    /* Instagram's brand color */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.instagram-link a:hover {
+    text-decoration: underline;
+}
+
+.instagram-icon {
+    font-size: 1.2rem;
+}

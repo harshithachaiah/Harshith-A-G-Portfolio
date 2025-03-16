@@ -1,0 +1,48 @@
+.about {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+    /* Header text color set to black */
+}
+
+.about h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+    /* Header text color set to black */
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #033;
+    /* Other text color set to #033 */
+}
+
+.about ul {
+    list-style-type: disc;
+    /* Add bullet points to the list */
+    padding-left: 1.5rem;
+    /* Add some padding for the bullet points */
+    margin-bottom: 1rem;
+    color: #033;
+    /* Other text color set to #033 */
+}
+
+.about li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    /* Add spacing between list items */
+    color: #033;
+    /* Other text color set to #033 */
+}

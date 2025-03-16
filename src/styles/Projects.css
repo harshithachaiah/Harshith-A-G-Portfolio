@@ -1,0 +1,135 @@
+.projects {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+    /* Black text */
+}
+
+.project-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-icon {
+    font-size: 1.5rem;
+    color: #0073b1;
+    /* LinkedIn blue */
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    /* Black text */
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #033;
+    /* Dark blue-gray text */
+    margin-bottom: 1rem;
+}
+
+.project-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-item li {
+    font-size: 1rem;
+    color: #033;
+    /* Dark blue-gray text */
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.project-subitem {
+    margin-bottom: 1.5rem;
+}
+
+.project-subitem h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    /* Black text */
+    margin-bottom: 0.5rem;
+}
+
+.project-subitem a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0073b1;
+    /* LinkedIn blue */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.project-subitem a:hover {
+    text-decoration: underline;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #0073b1;
+    /* LinkedIn blue */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.download-button:hover {
+    background: #005f8e;
+    /* Darker LinkedIn blue */
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0073b1;
+    /* LinkedIn blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 1rem;
+}
