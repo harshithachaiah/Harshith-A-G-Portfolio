@@ -83,8 +83,12 @@ export default function App() {
 
         {/* Main Content */}
         <main className={`main-content ${isSidebarOpen ? "sidebar-open" : "sidebar-closed"}`}>
+          {/* Header Component */}
+          <Header />
+
+          {/* Routes */}
           <Routes>
-            <Route path="/" element={<Header />} />
+            <Route path="/" element={<About />} /> {/* Default landing page */}
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />
